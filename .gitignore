@@ -1,0 +1,31 @@
+# 수업 실습 코드 (포트폴리오 대상 아님)
+opencv_lab/
+
+# 루트의 실습용 샘플 미디어
+/*.jpg
+/*.avi
+
+# 테스트가 매번 다시 만드는 합성 데이터 / 결과물
+test_images/
+test_output/
+test_data/
+output/
+color_ball_tracker/test_image.*
+shape_classifier/test_image.*
+
+# 실행 중 생성되는 파일
+scans/
+captures/
+screenshots/
+speed_log.csv
+roi.json
+parking_spot_detector/config.json
+
+# Python / 에디터
+__pycache__/
+*.pyc
+.venv/
+venv/
+.vscode/
+.idea/
+*.swp
